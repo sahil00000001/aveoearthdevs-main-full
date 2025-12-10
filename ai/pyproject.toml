@@ -1,0 +1,20 @@
+[project]
+name = "ai"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi>=0.116.1",
+    "google-genai>=1.32.0",
+    "google-generativeai>=0.8.5",
+    "httpx>=0.28.1",
+    "mcp>=1.13.1",
+    "pgvector>=0.3.6",
+    "pydantic>=2.11.7",
+    "python-dotenv>=1.1.1",
+    "sqlalchemy>=2.0.43",
+    "supabase>=2.18.1",
+    "uvicorn[standard]>=0.35.0",
+    "vecs>=0.4.5",
+]

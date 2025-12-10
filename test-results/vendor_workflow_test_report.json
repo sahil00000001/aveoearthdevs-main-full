@@ -1,0 +1,69 @@
+{
+  "timestamp": "2025-10-28T17:19:38.356Z",
+  "summary": {
+    "total_tests": 9,
+    "passed": 5,
+    "failed": 4,
+    "success_rate": "55.6"
+  },
+  "results": [
+    {
+      "test": "Frontend Health",
+      "success": true,
+      "details": "",
+      "timestamp": "2025-10-28T17:19:35.198Z"
+    },
+    {
+      "test": "Backend Health",
+      "success": true,
+      "details": "",
+      "timestamp": "2025-10-28T17:19:35.205Z"
+    },
+    {
+      "test": "Supabase Health",
+      "success": true,
+      "details": "",
+      "timestamp": "2025-10-28T17:19:36.049Z"
+    },
+    {
+      "test": "Vendor Account Creation",
+      "success": false,
+      "details": "Status: 422, Error: {\"detail\":\"Registration failed: Email address \\\"vendor-test-1761671976049@example.com\\\" is invalid\",\"type\":\"ValidationException\",\"path\":\"/auth/signup\"}",
+      "timestamp": "2025-10-28T17:19:37.425Z"
+    },
+    {
+      "test": "Vendor Login",
+      "success": false,
+      "details": "Status: 401, Error: {\"detail\":\"Login failed\",\"type\":\"AuthenticationException\",\"path\":\"/auth/login\"}",
+      "timestamp": "2025-10-28T17:19:37.607Z"
+    },
+    {
+      "test": "Supabase Products Query",
+      "success": false,
+      "details": "Status: 401",
+      "timestamp": "2025-10-28T17:19:37.744Z"
+    },
+    {
+      "test": "Supabase Categories Query",
+      "success": false,
+      "details": "Status: 401",
+      "timestamp": "2025-10-28T17:19:37.890Z"
+    },
+    {
+      "test": "Product Visibility API",
+      "success": true,
+      "details": "Found 0 products",
+      "timestamp": "2025-10-28T17:19:38.347Z"
+    },
+    {
+      "test": "Frontend Products Page",
+      "success": true,
+      "details": "",
+      "timestamp": "2025-10-28T17:19:38.356Z"
+    }
+  ],
+  "recommendations": [
+    "Review failed tests and fix issues",
+    "Consider improving system reliability"
+  ]
+}

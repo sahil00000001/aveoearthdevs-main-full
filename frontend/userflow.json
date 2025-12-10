@@ -1,0 +1,247 @@
+{
+    "application": "Aveoearth",
+    "description": "A sustainable ecommerce marketplace with Buyers, Suppliers, and Admins. Features include ESG traceability, AI concierge, and marketplace functionality.",
+    "userTypes": ["Buyer", "Supplier", "Admin"],
+    "flows": {
+      "Buyer": [
+        {
+          "flowName": "Registration & Authentication",
+          "screens": [
+            "Landing/Homepage",
+            "Sign Up Form",
+            "Email Verification",
+            "Login Form",
+            "Forgot Password",
+            "Reset Password",
+            "Profile Setup (optional)"
+          ],
+          "sequence": ["Homepage", "Sign Up", "Email Verification", "Login", "Dashboard/Homepage"]
+        },
+        {
+          "flowName": "Product Discovery & Search",
+          "screens": [
+            "Homepage (with hero, categories)",
+            "Category Browse Pages",
+            "Faceted Search Results",
+            "Product Detail Page (PDP)",
+            "ESG Proof Modal",
+            "Product Comparison (optional)"
+          ],
+          "sequence": ["Homepage", "Browse Categories", "Search/Filter", "PDP", "ESG Verification", "Add to Cart"]
+        },
+        {
+          "flowName": "Shopping & Checkout",
+          "screens": [
+            "Shopping Cart",
+            "Checkout Form (shipping, billing)",
+            "Payment Gateway Integration",
+            "Order Confirmation",
+            "Order Success Page"
+          ],
+          "sequence": ["Cart", "Checkout", "Payment", "Confirmation", "Success"]
+        },
+        {
+          "flowName": "Order Management",
+          "screens": [
+            "Order History",
+            "Order Details",
+            "Order Tracking",
+            "Return/Exchange Request",
+            "Return Status Tracking"
+          ],
+          "sequence": ["My Account", "Orders", "Order Details", "Track/Return"]
+        },
+        {
+          "flowName": "Account Management",
+          "screens": [
+            "My Account Dashboard",
+            "Profile Settings",
+            "Address Book",
+            "Payment Methods",
+            "Notification Preferences",
+            "Support Tickets"
+          ],
+          "sequence": ["Login", "My Account", "Various Settings Pages"]
+        },
+        {
+          "flowName": "Aveomind AI Concierge",
+          "screens": [
+            "Chat Widget (overlay on any page)",
+            "Chat History",
+            "Support Handoff Confirmation"
+          ],
+          "sequence": ["Click Chat", "Ask Question", "Get Response/Tool Action", "Continue or Escalate"]
+        }
+      ],
+      "Supplier": [
+        {
+          "flowName": "Supplier Onboarding",
+          "screens": [
+            "Supplier Registration",
+            "Business Information Form",
+            "KYC Document Upload",
+            "Bank Account Details",
+            "Tax Information",
+            "Terms & Conditions",
+            "Application Submitted",
+            "Approval Pending Status",
+            "Welcome Dashboard (post-approval)"
+          ],
+          "sequence": ["Register", "Complete KYC", "Submit Docs", "Wait for Approval", "Access Dashboard"]
+        },
+        {
+          "flowName": "Product Management",
+          "screens": [
+            "Supplier Dashboard",
+            "Product Catalog",
+            "Add New Product Form",
+            "Edit Product",
+            "Product Media Upload",
+            "Bulk CSV Upload Interface",
+            "CSV Import Progress",
+            "CSV Import Results",
+            "Product Status Management"
+          ],
+          "sequence": ["Dashboard", "Products", "Add/Edit", "Upload Media", "Publish/Save"]
+        },
+        {
+          "flowName": "ESG Certificate Management",
+          "screens": [
+            "ESG Documents Dashboard",
+            "Upload Certificate",
+            "Certificate Details Form",
+            "Certificate Status",
+            "ESG Score Configuration",
+            "Verification History"
+          ],
+          "sequence": ["Dashboard", "ESG", "Upload Certificate", "Admin Approval", "Live on Products"]
+        },
+        {
+          "flowName": "Order & Logistics",
+          "screens": [
+            "Orders Dashboard",
+            "Order Details",
+            "Shipping Label Generation",
+            "Tracking Update Form",
+            "Logistics Partner Integration",
+            "Delivery Confirmation"
+          ],
+          "sequence": ["New Order", "Process", "Generate Label", "Ship", "Update Tracking", "Delivered"]
+        },
+        {
+          "flowName": "Financial Management",
+          "screens": [
+            "Sales Analytics",
+            "Payout Dashboard",
+            "Transaction History",
+            "Tax Reports",
+            "Settlement Details",
+            "Payment Account Settings"
+          ],
+          "sequence": ["Dashboard", "Sales", "Payouts", "Financial Reports"]
+        },
+        {
+          "flowName": "Supplier Support",
+          "screens": [
+            "Help Center",
+            "Submit Support Ticket",
+            "Ticket Status",
+            "FAQ Section",
+            "Onboarding Guide"
+          ],
+          "sequence": ["Help", "Submit Ticket", "Track Status", "Resolution"]
+        }
+      ],
+      "Admin": [
+        {
+          "flowName": "Admin Authentication & Dashboard",
+          "screens": ["Admin Login", "Admin Dashboard (analytics overview)", "System Health Monitoring"],
+          "sequence": ["Login", "Dashboard", "Monitor KPIs"]
+        },
+        {
+          "flowName": "Supplier Management",
+          "screens": [
+            "Supplier Applications",
+            "Supplier Approval Form",
+            "Supplier Details View",
+            "Supplier Status Management",
+            "Supplier Analytics",
+            "Bulk Supplier Actions"
+          ],
+          "sequence": ["Dashboard", "Suppliers", "Review Application", "Approve/Reject", "Monitor"]
+        },
+        {
+          "flowName": "Product Management",
+          "screens": [
+            "Product Approval Queue",
+            "Product Details Review",
+            "Product Approval/Rejection",
+            "Product Categories Management",
+            "Bulk Product Actions",
+            "Product Performance Analytics"
+          ],
+          "sequence": ["Dashboard", "Products", "Review", "Approve/Reject", "Monitor Performance"]
+        },
+        {
+          "flowName": "ESG Verification",
+          "screens": [
+            "ESG Certificate Review",
+            "Certificate Verification Form",
+            "ESG Audit Trail",
+            "ESG Score Override",
+            "Sustainability Reports"
+          ],
+          "sequence": ["Dashboard", "ESG", "Review Certificates", "Verify/Reject", "Update Scores"]
+        },
+        {
+          "flowName": "Order Management",
+          "screens": [
+            "Orders Overview",
+            "Order Details",
+            "Order Status Management",
+            "Dispute Resolution",
+            "Refund Processing",
+            "Order Analytics"
+          ],
+          "sequence": ["Dashboard", "Orders", "Review Issues", "Resolve Disputes", "Process Refunds"]
+        },
+        {
+          "flowName": "User Management",
+          "screens": [
+            "User List (Buyers/Suppliers)",
+            "User Details",
+            "User Status Management",
+            "User Analytics",
+            "Communication Tools"
+          ],
+          "sequence": ["Dashboard", "Users", "View Details", "Manage Status", "Send Communications"]
+        },
+        {
+          "flowName": "Platform Configuration",
+          "screens": [
+            "System Settings",
+            "Payment Gateway Config",
+            "Logistics Partner Config",
+            "Email Templates",
+            "Notification Settings",
+            "Feature Flags",
+            "API Management"
+          ],
+          "sequence": ["Dashboard", "Settings", "Configure Systems", "Save Changes"]
+        },
+        {
+          "flowName": "Analytics & Reporting",
+          "screens": [
+            "Analytics Dashboard",
+            "Sales Reports",
+            "User Activity Reports",
+            "ESG Impact Reports",
+            "Financial Reports",
+            "Export Data Tools"
+          ],
+          "sequence": ["Dashboard", "Analytics", "Generate Reports", "Export Data"]
+        }
+      ]
+    }
+  }
+  

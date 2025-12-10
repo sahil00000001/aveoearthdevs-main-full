@@ -1,0 +1,287 @@
+{
+  "timestamp": "2025-11-02T15:41:40.192Z",
+  "results": {
+    "uploads": {
+      "bulk": [
+        {
+          "success": true,
+          "count": 2
+        },
+        {
+          "success": true,
+          "count": 2
+        },
+        {
+          "success": true,
+          "count": 2
+        },
+        {
+          "success": true,
+          "count": 2
+        },
+        {
+          "success": true,
+          "count": 2
+        },
+        {
+          "success": true,
+          "count": 2
+        }
+      ],
+      "normal": [
+        {
+          "success": true,
+          "productId": "1747410e-e31f-4cc8-a9a2-4d60f10b2506"
+        },
+        {
+          "success": true,
+          "productId": "cc0d1859-5f9d-4c03-bfb6-1ccc3a81f74f"
+        },
+        {
+          "success": true,
+          "productId": "fe8d04f9-dfae-484d-941a-bb7a757c5bfe"
+        },
+        {
+          "success": true,
+          "productId": "652dc67d-7c1e-4ec6-b9c0-a99193818ebf"
+        },
+        {
+          "success": true,
+          "productId": "1ae25cea-140f-44bd-9d87-66e8be92f4ce"
+        },
+        {
+          "success": true,
+          "productId": "30d6c5d2-3a80-49b8-9935-75bb2b9daf26"
+        }
+      ]
+    },
+    "auth": {
+      "vendor": [
+        {
+          "success": true,
+          "email": "vendor1762097898581@test.com"
+        },
+        {
+          "success": true,
+          "email": "vendor1762097943981@test.com"
+        },
+        {
+          "success": true,
+          "email": "vendor1762097974595@test.com"
+        },
+        {
+          "success": true,
+          "email": "vendor1762098010480@test.com"
+        },
+        {
+          "success": true,
+          "email": "vendor1762098039180@test.com"
+        },
+        {
+          "success": true,
+          "email": "vendor1762098071532@test.com"
+        }
+      ],
+      "buyer": [
+        {
+          "success": true,
+          "email": "buyer1762097904015@test.com"
+        },
+        {
+          "success": true,
+          "email": "buyer1762097955514@test.com"
+        },
+        {
+          "success": true,
+          "email": "buyer1762097989129@test.com"
+        },
+        {
+          "success": true,
+          "email": "buyer1762098021231@test.com"
+        },
+        {
+          "success": true,
+          "email": "buyer1762098051563@test.com"
+        },
+        {
+          "success": true,
+          "email": "buyer1762098082508@test.com"
+        }
+      ],
+      "google": [
+        {
+          "success": true,
+          "note": "Endpoint accessible",
+          "status": 401
+        }
+      ]
+    },
+    "visibility": {
+      "products": [
+        {
+          "success": true,
+          "total": 50,
+          "returned": 10,
+          "sampleId": "5d5bc8c5-27c2-4a03-8fd0-1ae94df2b9f0"
+        },
+        {
+          "success": true,
+          "total": 50,
+          "returned": 10,
+          "sampleId": "5d5bc8c5-27c2-4a03-8fd0-1ae94df2b9f0"
+        },
+        {
+          "success": true,
+          "total": 50,
+          "returned": 10,
+          "sampleId": "5d5bc8c5-27c2-4a03-8fd0-1ae94df2b9f0"
+        },
+        {
+          "success": true,
+          "total": 50,
+          "returned": 10,
+          "sampleId": "5d5bc8c5-27c2-4a03-8fd0-1ae94df2b9f0"
+        },
+        {
+          "success": true,
+          "total": 50,
+          "returned": 10,
+          "sampleId": "5d5bc8c5-27c2-4a03-8fd0-1ae94df2b9f0"
+        },
+        {
+          "success": true,
+          "total": 50,
+          "returned": 10,
+          "sampleId": "5d5bc8c5-27c2-4a03-8fd0-1ae94df2b9f0"
+        }
+      ],
+      "frontend": [
+        {
+          "success": true,
+          "accessible": true
+        }
+      ]
+    },
+    "orders": [],
+    "chatbot": [
+      {
+        "success": true,
+        "responded": true
+      },
+      {
+        "success": true,
+        "responded": true
+      },
+      {
+        "success": true,
+        "responded": true
+      },
+      {
+        "success": true,
+        "responded": true
+      },
+      {
+        "success": true,
+        "responded": true
+      },
+      {
+        "success": true,
+        "responded": true
+      }
+    ],
+    "backend": {
+      "health": true,
+      "categories": true,
+      "brands": true,
+      "search": false
+    },
+    "stress": {
+      "productQueries": {
+        "success": 20,
+        "failed": 0,
+        "avgTime": 662.15
+      },
+      "authRequests": {
+        "success": 0,
+        "failed": 0,
+        "avgTime": 0
+      },
+      "uploads": {
+        "success": 0,
+        "failed": 0,
+        "avgTime": 0
+      }
+    }
+  },
+  "workflows": [
+    {
+      "run": 1,
+      "timestamp": "2025-11-02T15:39:03.981Z",
+      "steps": {
+        "vendorAuth": true,
+        "bulkUpload": true,
+        "normalUpload": true,
+        "buyerAuth": true,
+        "productVisibility": true,
+        "orderPlacement": false,
+        "chatbot": true
+      }
+    },
+    {
+      "run": 2,
+      "timestamp": "2025-11-02T15:39:34.595Z",
+      "steps": {
+        "vendorAuth": true,
+        "bulkUpload": true,
+        "normalUpload": true,
+        "buyerAuth": true,
+        "productVisibility": true,
+        "orderPlacement": false,
+        "chatbot": true
+      }
+    },
+    {
+      "run": 3,
+      "timestamp": "2025-11-02T15:40:10.480Z",
+      "steps": {
+        "vendorAuth": true,
+        "bulkUpload": true,
+        "normalUpload": true,
+        "buyerAuth": true,
+        "productVisibility": true,
+        "orderPlacement": false,
+        "chatbot": true
+      }
+    },
+    {
+      "run": 4,
+      "timestamp": "2025-11-02T15:40:39.180Z",
+      "steps": {
+        "vendorAuth": true,
+        "bulkUpload": true,
+        "normalUpload": true,
+        "buyerAuth": true,
+        "productVisibility": true,
+        "orderPlacement": false,
+        "chatbot": true
+      }
+    },
+    {
+      "run": 5,
+      "timestamp": "2025-11-02T15:41:11.532Z",
+      "steps": {
+        "vendorAuth": true,
+        "bulkUpload": true,
+        "normalUpload": true,
+        "buyerAuth": true,
+        "productVisibility": true,
+        "orderPlacement": false,
+        "chatbot": true
+      }
+    }
+  ],
+  "summary": {
+    "totalWorkflows": 5,
+    "successfulWorkflows": 0
+  }
+}

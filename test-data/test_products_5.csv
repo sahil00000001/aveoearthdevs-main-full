@@ -1,0 +1,7 @@
+name,sku,price,short_description,description,category_id,brand_id,status,visibility,stock,sustainability_score,tags
+Eco-Friendly Water Bottle,WB-ECO-001,29.99,A reusable stainless steel water bottle perfect for daily use,Made from premium stainless steel with double-wall insulation to keep drinks cold or hot for hours,,,draft,visible,50,85,eco-friendly;water bottle;reusable
+Organic Cotton T-Shirt,TS-ORG-002,24.99,100% organic cotton t-shirt made with sustainable farming practices,Comfortable and breathable organic cotton t-shirt that's gentle on your skin and the environment,,,draft,visible,100,90,organic;cotton;t-shirt;sustainable
+Solar-Powered Charger,CH-SOL-003,49.99,Portable solar charger for phones and devices,Charge your devices anywhere with this compact solar-powered charger featuring high-efficiency solar panels,,,draft,visible,30,95,solar;charger;portable;renewable
+Bamboo Toothbrush Set,BR-BAM-004,12.99,Set of 4 biodegradable bamboo toothbrushes,Natural bamboo toothbrushes with soft bristles that are completely biodegradable,,,draft,visible,200,88,bamboo;toothbrush;biodegradable;eco
+Reusable Shopping Bag Pack,BG-REU-005,19.99,Pack of 5 durable reusable shopping bags,Sturdy reusable shopping bags made from recycled materials that fold compactly,,,draft,visible,150,87,reusable;shopping bag;eco-friendly
+

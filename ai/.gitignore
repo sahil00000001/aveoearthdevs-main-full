@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+.env/
+
+# FastAPI specific
+instance/
+*.db
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Test coverage
+htmlcov/
+.coverage
+.tox/
+.pytest_cache/
+
+# Pip
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Others
+*.sqlite3
+*.bak
+*.tmp

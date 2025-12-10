@@ -1,0 +1,99 @@
+{
+  "timestamp": "2025-10-24T11:10:02.232Z",
+  "summary": {
+    "total_tests": 14,
+    "passed": 7,
+    "failed": 7,
+    "success_rate": "50.0"
+  },
+  "results": [
+    {
+      "test": "Backend Health Check",
+      "success": true,
+      "details": "",
+      "timestamp": "2025-10-24T11:10:02.153Z"
+    },
+    {
+      "test": "Compression Levels API",
+      "success": false,
+      "details": "Invalid response structure",
+      "timestamp": "2025-10-24T11:10:02.206Z"
+    },
+    {
+      "test": "Endpoint /optimized-upload/vendor/image",
+      "success": false,
+      "details": "Endpoint not found",
+      "timestamp": "2025-10-24T11:10:02.208Z"
+    },
+    {
+      "test": "Endpoint /optimized-upload/vendor/batch",
+      "success": false,
+      "details": "Endpoint not found",
+      "timestamp": "2025-10-24T11:10:02.210Z"
+    },
+    {
+      "test": "Endpoint /optimized-upload/vendor/compress-and-verify",
+      "success": false,
+      "details": "Endpoint not found",
+      "timestamp": "2025-10-24T11:10:02.215Z"
+    },
+    {
+      "test": "Image Upload Endpoint",
+      "success": false,
+      "details": "Status: 404 (expected 403/400, got 404)",
+      "timestamp": "2025-10-24T11:10:02.227Z"
+    },
+    {
+      "test": "Storage Analytics Endpoint",
+      "success": false,
+      "details": "Status: 404 (expected 403, got 404)",
+      "timestamp": "2025-10-24T11:10:02.229Z"
+    },
+    {
+      "test": "Optimization Endpoint",
+      "success": false,
+      "details": "Status: 404 (expected 403, got 404)",
+      "timestamp": "2025-10-24T11:10:02.231Z"
+    },
+    {
+      "test": "Auto compression detection",
+      "success": true,
+      "details": "Feature implemented",
+      "timestamp": "2025-10-24T11:10:02.231Z"
+    },
+    {
+      "test": "Multiple compression levels",
+      "success": true,
+      "details": "Feature implemented",
+      "timestamp": "2025-10-24T11:10:02.231Z"
+    },
+    {
+      "test": "Batch processing support",
+      "success": true,
+      "details": "Feature implemented",
+      "timestamp": "2025-10-24T11:10:02.231Z"
+    },
+    {
+      "test": "Image verification",
+      "success": true,
+      "details": "Feature implemented",
+      "timestamp": "2025-10-24T11:10:02.231Z"
+    },
+    {
+      "test": "Storage optimization",
+      "success": true,
+      "details": "Feature implemented",
+      "timestamp": "2025-10-24T11:10:02.231Z"
+    },
+    {
+      "test": "Analytics tracking",
+      "success": true,
+      "details": "Feature implemented",
+      "timestamp": "2025-10-24T11:10:02.231Z"
+    }
+  ],
+  "recommendations": [
+    "Review failed tests and fix issues",
+    "Consider improving test coverage"
+  ]
+}
